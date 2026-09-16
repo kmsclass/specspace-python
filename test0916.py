@@ -2,6 +2,8 @@
 1.sales_2015.xlsx 파일의  january_2015 sheet의 중
  열이  "Customer Name", "Sale Amount" 컬럼만 
  sales_2015_amt.xlsx 파일로 저장하기  
+
+ df = pd.read_excel('엑셀파일이름',"sheet이름",index_col=None)
 """
 i
 
@@ -20,4 +22,5 @@ i
   4. sales_2015.xlsx 파일의 january_2015 sheet 을 읽어 
     Customer Name별 Sale Amount 를 선그래프로 시각화 하기
      그래프 작성하기
+     df = pd.read_excel('sales_2015.xlsx',"january_2015",index_col=None)
 '''
